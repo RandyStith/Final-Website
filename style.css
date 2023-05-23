@@ -1,0 +1,39 @@
+body{
+  background-color: #1a2737;
+}
+
+#neubar {
+    background: #5b6571;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #272b30, #5b6571);
+    box-shadow:  4px 4px 8px #272b30,
+                 -4px -4px 8px #272b30;
+  }
+  #neubar .dropdown-menu a:hover {
+    background-color: #272b30;
+    color: white
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #646f7d
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .text{
+    font-size: 1.5vw;
+    color:white;
+    font-family: fantasy, papyrus;
+  }
